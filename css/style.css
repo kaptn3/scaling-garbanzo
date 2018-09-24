@@ -298,7 +298,9 @@ template {
   display: none; }
 
 :root {
-  --blue: #5780a8; }
+  --black: #262425;
+  --light-gray: #f4f4f7;
+  --light-gray-2: #f9f9fc; }
 
 * {
   box-sizing: border-box; }
@@ -321,7 +323,6 @@ div {
 
 button {
   outline: none;
-  border: 0;
   cursor: pointer; }
 
 a {
@@ -351,8 +352,19 @@ button:focus,
 textarea:focus {
   outline: none; }
 
+blockquote {
+  margin: 0; }
+
+.app {
+  background: url("../img/1.jpg") center no-repeat;
+  background-size: cover;
+  color: var(--black); }
+
 .header {
-  border-bottom: 1px solid var(--blue);
-  padding: 20px; }
+  height: 100vh;
+  background: var(--light-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
