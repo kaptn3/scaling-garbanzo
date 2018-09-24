@@ -1,4 +1,7 @@
 .header {
-  border-bottom: 1px solid var(--blue);
-  padding: 20px;
+  height: 100vh;
+  background: var(--light-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
